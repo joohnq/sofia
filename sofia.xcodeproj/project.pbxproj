@@ -6,13 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE05EA1A2D7F097F004D0D45 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = BE05EA192D7F097F004D0D45 /* GoogleGenerativeAI */; };
+		BE9079D52D7A27B40010883B /* Reeeed in Frameworks */ = {isa = PBXBuildFile; productRef = BE9079D42D7A27B40010883B /* Reeeed */; };
+		BE9079D82D7A2F080010883B /* WebViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE9079D72D7A2F080010883B /* WebViewKit */; };
+		BE9079DD2D7A30A40010883B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BE9079DC2D7A30A40010883B /* FirebaseAnalytics */; };
+		BE9079DF2D7A30A40010883B /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = BE9079DE2D7A30A40010883B /* FirebaseCrashlytics */; };
+		BE9079E12D7A30A40010883B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BE9079E02D7A30A40010883B /* FirebaseFirestore */; };
+		BEBB5EAD2D7CD8D000D935B3 /* OpenGraphReader in Frameworks */ = {isa = PBXBuildFile; productRef = BEBB5EAC2D7CD8D000D935B3 /* OpenGraphReader */; };
+		BEF831322D805AF50067CCF4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BEF831312D805AF50067CCF4 /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE975AA52D787BFE00A738FB /* sofia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sofia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BE05EA302D7F30AC004D0D45 /* Exceptions for "sofia" folder in "sofia" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BE975AA42D787BFE00A738FB /* sofia */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BE975AA72D787BFE00A738FB /* sofia */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BE05EA302D7F30AC004D0D45 /* Exceptions for "sofia" folder in "sofia" target */,
+			);
 			path = sofia;
 			sourceTree = "<group>";
 		};
@@ -23,6 +47,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9079D52D7A27B40010883B /* Reeeed in Frameworks */,
+				BE9079DF2D7A30A40010883B /* FirebaseCrashlytics in Frameworks */,
+				BE9079D82D7A2F080010883B /* WebViewKit in Frameworks */,
+				BE9079E12D7A30A40010883B /* FirebaseFirestore in Frameworks */,
+				BE05EA1A2D7F097F004D0D45 /* GoogleGenerativeAI in Frameworks */,
+				BEBB5EAD2D7CD8D000D935B3 /* OpenGraphReader in Frameworks */,
+				BE9079DD2D7A30A40010883B /* FirebaseAnalytics in Frameworks */,
+				BEF831322D805AF50067CCF4 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +97,14 @@
 			);
 			name = sofia;
 			packageProductDependencies = (
+				BE9079D42D7A27B40010883B /* Reeeed */,
+				BE9079D72D7A2F080010883B /* WebViewKit */,
+				BE9079DC2D7A30A40010883B /* FirebaseAnalytics */,
+				BE9079DE2D7A30A40010883B /* FirebaseCrashlytics */,
+				BE9079E02D7A30A40010883B /* FirebaseFirestore */,
+				BEBB5EAC2D7CD8D000D935B3 /* OpenGraphReader */,
+				BE05EA192D7F097F004D0D45 /* GoogleGenerativeAI */,
+				BEF831312D805AF50067CCF4 /* FirebaseAuth */,
 			);
 			productName = sofia;
 			productReference = BE975AA52D787BFE00A738FB /* sofia.app */;
@@ -94,6 +134,13 @@
 			);
 			mainGroup = BE975A9C2D787BFE00A738FB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BE9079D32D7A27B40010883B /* XCRemoteSwiftPackageReference "reeeed" */,
+				BE9079D62D7A2F080010883B /* XCRemoteSwiftPackageReference "WebViewKit" */,
+				BE9079DB2D7A30A40010883B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BEBB5EAB2D7CD8D000D935B3 /* XCRemoteSwiftPackageReference "OpenGraphReader" */,
+				BE05EA182D7F097F004D0D45 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BE975AA62D787BFE00A738FB /* Products */;
 			projectDirPath = "";
@@ -255,6 +302,8 @@
 				DEVELOPMENT_TEAM = Y3ZS9KT926;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sofia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sofia;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +333,8 @@
 				DEVELOPMENT_TEAM = Y3ZS9KT926;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sofia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sofia;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +375,92 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE05EA182D7F097F004D0D45 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+		BE9079D32D7A27B40010883B /* XCRemoteSwiftPackageReference "reeeed" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nate-parrott/reeeed";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		BE9079D62D7A2F080010883B /* XCRemoteSwiftPackageReference "WebViewKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/WebViewKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+		BE9079DB2D7A30A40010883B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+		BEBB5EAB2D7CD8D000D935B3 /* XCRemoteSwiftPackageReference "OpenGraphReader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pzmudzinski/OpenGraphReader.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE05EA192D7F097F004D0D45 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE05EA182D7F097F004D0D45 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		BE9079D42D7A27B40010883B /* Reeeed */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE9079D32D7A27B40010883B /* XCRemoteSwiftPackageReference "reeeed" */;
+			productName = Reeeed;
+		};
+		BE9079D72D7A2F080010883B /* WebViewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE9079D62D7A2F080010883B /* XCRemoteSwiftPackageReference "WebViewKit" */;
+			productName = WebViewKit;
+		};
+		BE9079DC2D7A30A40010883B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE9079DB2D7A30A40010883B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BE9079DE2D7A30A40010883B /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE9079DB2D7A30A40010883B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		BE9079E02D7A30A40010883B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE9079DB2D7A30A40010883B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BEBB5EAC2D7CD8D000D935B3 /* OpenGraphReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEBB5EAB2D7CD8D000D935B3 /* XCRemoteSwiftPackageReference "OpenGraphReader" */;
+			productName = OpenGraphReader;
+		};
+		BEF831312D805AF50067CCF4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE9079DB2D7A30A40010883B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BE975A9D2D787BFE00A738FB /* Project object */;
 }

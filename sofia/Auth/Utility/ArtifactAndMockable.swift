@@ -1,0 +1,102 @@
+//
+//  ArtifactAndMockable.swift
+//  sofia
+//
+//  Created by Henrique on 05/03/25.
+//
+import Foundation
+
+extension Artifact: Mockable {
+    public static var mockList: [Artifact] = [
+        Artifact(
+            id: UUID().uuidString,
+                title: "https://peterfriese.dev/_astro/gemini-genkit-pdf-structured-data.DrOAWBRa_Z1y23Vu.webp",
+                author: "F. Scott Fitzgerald",
+                url:"https://peterfriese.dev/blog/2025/gemini-genkit-pdf-structured-data/",
+                excerpt: "In my younger and more vulnerable years, my father gave me some advice...",
+                notes: "A classic novel about the American dream and the roaring twenties.",
+                readingTime: 180,
+                imageUrl: "https://peterfriese.dev/_astro/gemini-genkit-pdf-structured-data.DrOAWBRa_Z1y23Vu.webp",
+                siteName: "Book Library",
+                isRead: true,
+                isFlagged: false,
+                readableHTML: "<h1>The Great Gatsby</h1><p>In my younger and more vulnerable years...</p>",
+                fullText: "Full text of the novel...",
+                userId: "user123",
+                createdAt: Date(),
+                lastUpdatedAt: Date()
+            ),
+            Artifact(
+                id: UUID().uuidString,
+                title: "Understanding SwiftUI Preferences",
+                author: "George Orwell",
+                url: "https://peterfriese.dev/blog/2025/swiftui-preferences-swift6/",
+                excerpt: "War is peace. Freedom is slavery. Ignorance is strength.",
+                notes: "A dystopian novel depicting a totalitarian regime.",
+                readingTime: 200,
+                imageUrl: "https://peterfriese.dev/_astro/swiftui-preferences-swift6.C6fNZ7DO_Z1QsQIT.webp",
+                siteName: "Dystopia Reads",
+                isRead: false,
+                isFlagged: true,
+                readableHTML: "<h1>1984</h1><p>War is peace. Freedom is slavery...</p>",
+                fullText: "Full text of the novel...",
+                userId: "user456",
+                createdAt: Date(),
+                lastUpdatedAt: nil
+            ),
+            Artifact(
+                id: UUID().uuidString,
+                title: "Creating a reusable action menu component in SwiftUI",
+                author: "Harper Lee",
+                url: "https://peterfriese.dev/blog/2025/swiftui-action-menu/",
+                excerpt: "Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin to kill a mockingbird.",
+                notes: "A poignant story about racial injustice and childhood innocence.",
+                readingTime: 250,
+                imageUrl: "https://peterfriese.dev/_astro/swiftui-action-menu.Dviry5Lp_kfQrI.webp",
+                siteName: "Classic Reads",
+                isRead: true,
+                isFlagged: true,
+                readableHTML: "<h1>To Kill a Mockingbird</h1><p>Shoot all the bluejays...</p>",
+                fullText: "Full text of the novel...",
+                userId: "user789",
+                createdAt: Date(),
+                lastUpdatedAt: Date()
+            ),
+            Artifact(
+                id: UUID().uuidString,
+                title: "Creating custom SF Symbols using the SF Symbols app",
+                author: "Yuval Noah Harari",
+                url: "https://peterfriese.dev/blog/2025/custom-sf-symbols/",
+                excerpt: "Homo sapiens' success is based on our ability to cooperate in large groups.",
+                notes: "An exploration of human history from the Stone Age to modern times.",
+                readingTime: 300,
+                imageUrl: "https://peterfriese.dev/_astro/custom-sf-symbols.D3c5LWln_ZFa9MC.webp",
+                siteName: "Knowledge Hub",
+                isRead: false,
+                isFlagged: false,
+                readableHTML: "<h1>Sapiens: A Brief History of Humankind</h1><p>Homo sapiens' success...</p>",
+                fullText: "Full text of the book...",
+                userId: "user101",
+                createdAt: Date(),
+                lastUpdatedAt: nil
+            ),
+            Artifact(
+                id: UUID().uuidString,
+                title: "Improve your app's UX with SwiftUI's task view modifier",
+                author: "J.D. Salinger",
+                url: "https://peterfriese.dev/blog/2024/delay-task-modifier/",
+                excerpt: "I’m the most terrific liar you ever saw in your life. It’s awful. If I’m on my way to the store to buy a magazine, I’ll tell you I’m on my way to buy a book...",
+                notes: "A story about alienation, identity, and the pains of adolescence.",
+                readingTime: 220,
+                imageUrl: "https://peterfriese.dev/_astro/delay-task-modifier.D4e7rqQq_ZWmN07.webp",
+                siteName: "Teen Reads",
+                isRead: true,
+                isFlagged: true,
+                readableHTML: "<h1>The Catcher in the Rye</h1><p>I’m the most terrific liar...</p>",
+                fullText: "Full text of the novel...",
+                userId: "user112",
+                createdAt: Date(),
+                lastUpdatedAt: Date()
+            )
+    ]
+}
