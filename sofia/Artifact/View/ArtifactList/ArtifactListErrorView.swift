@@ -1,9 +1,3 @@
-//
-//  ArtifactListErrorView.swift
-//  sofia
-//
-//  Created by Henrique on 15/04/25.
-//
 import SwiftUI
 
 struct ArtifactListErrorView: View {

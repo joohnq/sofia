@@ -1,10 +1,4 @@
 import FirebaseFirestore
-//
-//  ArtifactStore.swift
-//  sofia
-//
-//  Created by Henrique on 06/03/25.
-//
 import Foundation
 import Observation
 

@@ -1,9 +1,3 @@
-//
-//  Untitled.swift
-//  sofia
-//
-//  Created by Henrique on 05/03/25.
-//
 import Foundation
 import FirebaseFirestore
 

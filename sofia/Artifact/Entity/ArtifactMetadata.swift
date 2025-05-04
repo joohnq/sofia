@@ -1,9 +1,3 @@
-//
-//  ArtifactMetadata.swift
-//  sofia
-//
-//  Created by Henrique on 10/03/25.
-//
 struct ArtifactMetadata {
     var url: String?
     var text: String?

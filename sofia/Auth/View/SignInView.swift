@@ -1,10 +1,4 @@
 import FirebaseAuth
-//
-//  SignInView.swift
-//  sofia
-//
-//  Created by Henrique on 10/03/25.
-//
 import SwiftUI
 
 struct SignInView: View {

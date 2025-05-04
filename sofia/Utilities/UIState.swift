@@ -1,9 +1,3 @@
-//
-//  UIState.swift
-//  sofia
-//
-//  Created by Henrique on 11/03/25.
-//
 import SwiftUI
 
 enum UIState<T: Equatable>: Equatable {

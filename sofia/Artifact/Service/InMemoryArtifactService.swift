@@ -1,9 +1,3 @@
-//
-//  InMemoryArtifactStore.swift
-//  sofia
-//
-//  Created by Henrique on 10/03/25.
-//
 import Foundation
 import Observation
 

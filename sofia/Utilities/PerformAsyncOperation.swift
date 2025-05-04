@@ -1,9 +1,3 @@
-//
-//  PerformAsyncOperation.swift
-//  sofia
-//
-//  Created by Henrique on 11/03/25.
-//
 func performAsyncOperation<T, U>(
     asyncTask: @escaping () async -> Result<T, U>,
     success: @escaping (T) -> Void,

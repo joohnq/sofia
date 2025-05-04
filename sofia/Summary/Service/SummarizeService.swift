@@ -1,9 +1,3 @@
-//
-//  MetadataService.swift
-//  sofia
-//
-//  Created by Henrique on 07/03/25.
-//
 import Foundation
 import GoogleGenerativeAI
 import Observation

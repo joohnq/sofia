@@ -1,9 +1,3 @@
-//
-//  Mockable.swift
-//  sofia
-//
-//  Created by Henrique on 05/03/25.
-//
 public protocol Mockable {
     associatedtype MockType
 

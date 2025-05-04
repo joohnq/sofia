@@ -1,9 +1,3 @@
-//
-//  ArtifactStore.swift
-//  sofia
-//
-//  Created by Henrique on 10/03/25.
-//
 protocol ArtifactServiceProtocol {
     func getAll() -> Result<[Artifact], Error>
     func add(_ artifact: Artifact)

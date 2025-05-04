@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  sofia
-//
-//  Created by Henrique on 05/03/25.
-//
 import OpenGraphReader
 import GoogleGenerativeAI
 import SwiftUI

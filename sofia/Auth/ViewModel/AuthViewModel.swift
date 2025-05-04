@@ -1,9 +1,3 @@
-//
-//  AuthViewModel.swift
-//  sofia
-//
-//  Created by Henrique on 10/03/25.
-//
 import FirebaseAuth
 import Foundation
 

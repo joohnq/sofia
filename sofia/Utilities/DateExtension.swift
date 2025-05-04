@@ -1,9 +1,3 @@
-//
-//  DateExtension.swift
-//  sofia
-//
-//  Created by Henrique on 06/03/25.
-//
 import SwiftUI
 
 extension Date {
